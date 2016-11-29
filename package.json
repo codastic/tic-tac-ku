@@ -1,0 +1,50 @@
+{
+  "name": "tic-tac-ku",
+  "version": "1.0.0",
+  "description": "Node cli implementation of the board game Tic Tac Ku with bots to play against.",
+  "keywords": [
+    "board gaming",
+    "JavaScript",
+    "ai",
+    "algorithms"
+  ],
+  "main": "run.js",
+  "scripts": {
+    "test": "eslint src ./*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codastic/tic-tac-ku"
+  },
+  "bugs": "https://github.com/codastic/tic-tac-ku/issues",
+  "maintainers": [
+    {
+      "name": "Mario Volke",
+      "web": "http://codastic.com"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mario Volke",
+      "web": "http://codastic.com"
+    }
+  ],
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "clear": "0.0.1",
+    "invariant": "^2.2.2",
+    "lodash": "^4.17.2",
+    "minimist": "^1.2.0",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}

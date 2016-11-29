@@ -1,0 +1,27 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "no-undef": 2,                // http://eslint.org/docs/rules/no-undef.html
+    "comma-dangle": [2, "never"], // http://eslint.org/docs/rules/comma-dangle.html
+    "guard-for-in": 0,            // http://eslint.org/docs/rules/guard-for-in.html
+    "func-names": 0,              // http://eslint.org/docs/rules/func-names.html
+    "indent": [2, 2, {"SwitchCase": 1}], // http://eslint.org/docs/rules/indent
+    "no-unused-vars": [2, {"vars": "all", "args": "none"}], // http://eslint.org/docs/rules/no-unused-vars.html
+    "object-curly-spacing": [2, "never"], // http://eslint.org/docs/rules/object-curly-spacing.html
+    "space-before-function-paren": [2, "never"], // http://eslint.org/docs/rules/space-before-function-paren.html
+    "quote-props": [2, "consistent-as-needed"], // http://eslint.org/docs/rules/quote-props.html
+    "no-param-reassign": [2, {"props": false}], // http://eslint.org/docs/rules/no-param-reassign.html
+    "max-len": [2, 120, 2], // http://eslint.org/docs/rules/max-len.html
+    "no-use-before-define": [2, "nofunc"], // http://eslint.org/docs/rules/no-use-before-define.html
+    "new-cap": 0, // http://eslint.org/docs/rules/new-cap
+    "import/no-extraneous-dependencies": 0,
+    "prefer-template": 0,
+    "arrow-body-style": 0,
+    "no-restricted-syntax": 0,
+    "no-console": 0
+  },
+  "env": {
+    "node": true
+  },
+  "root": true
+}
