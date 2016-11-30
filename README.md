@@ -23,5 +23,5 @@ There are no tests. Sorry for that. But please use the linter with `npm test`.
 
 Please feel free to contribute with any pull requests.
   
-If you want to add your own AI, create a player with your name under `/src/player/[name].js` or as a subfolder with an index.js like `/src/player/[name]/index.js.
+If you want to add your own AI, create a player with your name under `/src/player/[name].js` or as a subfolder with an `index.js` like `/src/player/[name]/index.js`.
 You have to implement the interface of `/src/player/base.js`.
