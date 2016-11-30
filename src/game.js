@@ -43,7 +43,8 @@ class Game {
       const block = this.state[outerPos];
       for (const matcher of TIC_TAC_TOE_MATCHERS) {
         const player = block[matcher[0]];
-        if (player === block[matcher[1]] &&
+        if (player !== null &&
+          player === block[matcher[1]] &&
           player === block[matcher[2]]) {
           this.blocksWon[outerPos] = player;
           break;
