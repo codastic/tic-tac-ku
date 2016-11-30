@@ -1,6 +1,6 @@
 {
   "name": "tic-tac-ku",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Node cli implementation of the board game Tic Tac Ku with bots to play against.",
   "keywords": [
     "board gaming",
